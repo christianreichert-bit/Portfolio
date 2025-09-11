@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Christian Reichert</span>
-            from <span className="purple"> Lehigh University</span>
+             from <span className="purple"> Lehigh University</span>
             <br />
             I Am a Junior at Lehigh University, Studying Computer Science & Engineering pursuing a bacheolors currently.
             Located at Bethlehem, PA.
