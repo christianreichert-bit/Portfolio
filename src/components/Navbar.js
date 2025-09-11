@@ -81,11 +81,10 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-               <Nav.Link
-                href="Resume.pdf"  
-                target="_blank"
-                rel="noopener noreferrer"
+           <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"  // ✅ Loads React component
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
