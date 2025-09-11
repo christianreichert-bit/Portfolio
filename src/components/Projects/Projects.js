@@ -1,12 +1,7 @@
-import React from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -29,8 +24,8 @@ function Projects() {
               isBlog={false}
               title="Black-Hole Simulator"
               description="Working With Mechanical Engineers to Build a realistic Black-Hole simulator in c++"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
