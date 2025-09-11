@@ -83,7 +83,7 @@ function NavBar() {
 
             <Nav.Item>
                <Nav.Link
-                href="C:\Users\cjrei\Downloads\resume 2025 August.pdf"  
+                href="Resume.pdf"  
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
