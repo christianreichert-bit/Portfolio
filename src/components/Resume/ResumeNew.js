@@ -39,7 +39,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdfPath} // Use the path
+            href={pdfPath} 
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
