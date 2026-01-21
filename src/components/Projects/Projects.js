@@ -29,6 +29,20 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Memory Allocator Benchmarker"
+              description="- Developed custom memory allocators (Buddy & Slab) in C with comprehensive benchmarking suite
+              - Built interactive web visualization with real-time memory block display and performance metrics
+              - Implemented dual execution modes: native C benchmarking (2.5M+ ops/sec) and WebAssembly browser execution
+              - Created educational interface showing algorithm behavior, fragmentation, and allocation patterns
+"              ghLink="https://github.com/christianreichert-bit/Memory-Allocator"
+              demoLink="https://vercel.com/christianreichert-bits-projects/memory-allocator"
+            />
+          </Col>
+
          
         </Row>
       </Container>

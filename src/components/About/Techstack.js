@@ -5,6 +5,7 @@ import {
   DiNodejs,
   DiPython,
   DiJava,
+  DiPostgresql,
 } from "react-icons/di";
 function Techstack() {
   return (
@@ -24,6 +25,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiC/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql/>
+      </Col>
+      
     </Row>
   );
 }
