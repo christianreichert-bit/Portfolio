@@ -6,6 +6,7 @@ import {
   SiSupabase,
   SiUbuntu,
   SiOracle,
+  SiGithub,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -27,7 +28,7 @@ function Toolstack() {
         <SiOracle/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGitbash/>
+        <SiGithub/>
       </Col>
     </Row>
   );

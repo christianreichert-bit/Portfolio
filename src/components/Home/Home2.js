@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -32,20 +31,13 @@ function Home2() {
               <br />
               Whenever possible, I also am always trying to expand my skillset, 
               whether it be leanring new softwares, languages, or improving my current knowledgeset.
-              A funfact about me is that I've been playing Ping Pong for 10 years! <b className="purple">Scheme</b> and
+              A funfact about me is that I've been playing Ping Pong for 10 years! 
               <i>
-                <b className="purple">
-                  {" "}
-                  React, TypeScript, Java Script.
-                </b>
+                
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

@@ -34,10 +34,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Memory Allocator Benchmarker"
-              description="- Developed custom memory allocators (Buddy & Slab) in C with comprehensive benchmarking suite
-              - Built interactive web visualization with real-time memory block display and performance metrics
-              - Implemented dual execution modes: native C benchmarking (2.5M+ ops/sec) and WebAssembly browser execution
-              - Created educational interface showing algorithm behavior, fragmentation, and allocation patterns
+              description="Developed_custom_memory allocators (Buddy & Slab) in C with_comprehensive benchmarking_suite_Built interactive_web_visualization with real-time memory block display_and_performance
+              metrics_Implemented_dual execution modes: native C benchmarking (2.5M+ ops/sec) and WebAssembly browser execution
+              Created educational interface showing algorithm behavior, fragmentation, and allocation patterns
 "              ghLink="https://github.com/christianreichert-bit/Memory-Allocator"
               demoLink="https://vercel.com/christianreichert-bits-projects/memory-allocator"
             />
