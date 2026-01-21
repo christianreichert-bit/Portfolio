@@ -22,10 +22,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Black-Hole Simulator"
-              description="Working With Mechanical Engineers to Build a realistic Black-Hole simulator in c++"
-              ghLink=""
-              demoLink=""
+              title="Fincrate"
+              description="A comprehensive financial management portfolio for cypto stocks, bonds etc. with a built in AI for assistance on the market. Currently undeployed but features are apparent."
+              ghLink="https://github.com/christianreichert-bit/Fincrate"
+              demoLink="https://fincrate.vercel.app/"
             />
           </Col>
 
